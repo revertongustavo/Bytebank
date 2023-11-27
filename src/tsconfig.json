@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", //versao do JS
+        "outDir": "./dist/js/", //onde os arquivos serao salvos
+        "noEmitOnError": true // nao gere o arquivo js caso haja erros
+    },
+    "include": [
+        ".src/**/*" //onde eles vai verificar se tem arquivos ts
+    ]
+}
